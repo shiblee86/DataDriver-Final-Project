@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27834" started-at="2018-11-30T05:22:16Z" finished-at="2018-11-30T05:22:44Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestNgRunner@df27fae]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="27834" started-at="2018-11-30T05:22:16Z" finished-at="2018-11-30T05:22:44Z">
+      <class name="com.runner.TestNgRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.TestNgRunner@df27fae]" name="setUpClass" is-config="true" duration-ms="339" started-at="2018-11-30T05:22:16Z" finished-at="2018-11-30T05:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.TestNgRunner@df27fae]" name="feature" duration-ms="26931" started-at="2018-11-30T05:22:16Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-11-30T05:22:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Web application login function and web table data Validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.runner.TestNgRunner@df27fae]" name="teardown" is-config="true" duration-ms="11" started-at="2018-11-30T05:22:43Z" finished-at="2018-11-30T05:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.TestNgRunner@df27fae]" name="tearDownClass" is-config="true" duration-ms="414" started-at="2018-11-30T05:22:43Z" finished-at="2018-11-30T05:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.TestNgRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
