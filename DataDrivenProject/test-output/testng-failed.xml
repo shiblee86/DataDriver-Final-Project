@@ -3,17 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.regression.WebTableWithTestNG">
+      <class name="com.grid.dasda">
         <methods>
-          <include name="teardown"/>
-          <include name="getExcelData"/>
-          <include name="befortest"/>
-          <include name="aftermethod"/>
-          <include name="beforesuit"/>
-          <include name="sfterSuite"/>
-          <include name="beforemethod"/>
+          <include name="mytest"/>
         </methods>
-      </class> <!-- com.regression.WebTableWithTestNG -->
+      </class> <!-- com.grid.dasda -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

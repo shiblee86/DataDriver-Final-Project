@@ -41,7 +41,7 @@ public class Webtable_Validation extends BaseTest{
 	}
 
 	@Given("^Put URL and go to home apge$")
-	public void put_URL_and_go_to_home_apge() throws Throwable {
+	public void put_URL_and_go_to_home_page() throws Throwable {
 		
 		driver.get("https://www.premierleague.com/tables/");
 		pf = PageFactory.initElements(driver, MasterPageFactory.class);
